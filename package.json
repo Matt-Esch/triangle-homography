@@ -1,0 +1,30 @@
+{
+  "name": "triangle-homography",
+  "version": "0.1.0",
+  "description": "Computes the 4 x 4 transformation matrix T such that TA = B, where A, is the known triangle and B is the target triangle",
+  "keywords": ["triangle", "homography"],
+  "author": "Matt-Esch <matt@mattesch.info>",
+  "repository": "git://github.com/Matt-Esch/triangle-homography.git",
+  "main": "index",
+  "homepage": "https://github.com/Matt-Esch/triangle-homography",
+  "contributors": [
+    {
+      "name": "Matt Esch"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Matt-Esch/triangle-homography/issues",
+    "email": "matt@mattesch.info"
+  },
+  "dependencies": {
+      "numeric": "~1.2.6"
+  },
+  "devDependencies": {
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Matt-Esch/triangle-homography/raw/master/LICENSE"
+    }
+  ]
+}
